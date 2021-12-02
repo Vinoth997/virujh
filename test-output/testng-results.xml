@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-02T18:38:43 IST" name="Default suite" finished-at="2021-12-02T18:39:01 IST" duration-ms="17655">
+    <groups>
+      <group name="fail">
+        <method signature="DoctorLoginfntest.login()[pri:1, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="login" class="com.org.ss.virujh.DoctorLoginfntest"/>
+        <method signature="DoctorLoginfntest.siginInvalidmail()[pri:6, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="siginInvalidmail" class="com.org.ss.virujh.DoctorLoginfntest"/>
+        <method signature="DoctorLoginfntest.signinInvalidpasswrd()[pri:5, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="signinInvalidpasswrd" class="com.org.ss.virujh.DoctorLoginfntest"/>
+        <method signature="DoctorLoginfntest.signinwithoutdata()[pri:2, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="signinwithoutdata" class="com.org.ss.virujh.DoctorLoginfntest"/>
+        <method signature="DoctorLoginfntest.signinwithoutmail()[pri:4, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="signinwithoutmail" class="com.org.ss.virujh.DoctorLoginfntest"/>
+        <method signature="DoctorLoginfntest.signinwithoutpasswrd()[pri:3, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="signinwithoutpasswrd" class="com.org.ss.virujh.DoctorLoginfntest"/>
+      </group> <!-- fail -->
+      <group name="pass">
+        <method signature="DoctorLoginfntest.login()[pri:1, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="login" class="com.org.ss.virujh.DoctorLoginfntest"/>
+        <method signature="DoctorLoginfntest.signIn()[pri:7, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" name="signIn" class="com.org.ss.virujh.DoctorLoginfntest"/>
+      </group> <!-- pass -->
+    </groups>
+    <test started-at="2021-12-02T18:38:43 IST" name="Default test" finished-at="2021-12-02T18:39:01 IST" duration-ms="17655">
+      <class name="com.org.ss.virujh.DoctorLoginfntest">
+        <test-method is-config="true" signature="browserLaunch()[pri:0, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:43 IST" name="browserLaunch" finished-at="2021-12-02T18:38:50 IST" duration-ms="7213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method signature="login()[pri:1, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:50 IST" name="login" finished-at="2021-12-02T18:38:54 IST" duration-ms="3684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="signinwithoutdata()[pri:2, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:54 IST" name="signinwithoutdata" finished-at="2021-12-02T18:38:54 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinwithoutdata -->
+        <test-method signature="signinwithoutpasswrd()[pri:3, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:54 IST" name="signinwithoutpasswrd" finished-at="2021-12-02T18:38:57 IST" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinwithoutpasswrd -->
+        <test-method signature="signinwithoutmail()[pri:4, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:57 IST" name="signinwithoutmail" finished-at="2021-12-02T18:38:57 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinwithoutmail -->
+        <test-method signature="signinInvalidpasswrd()[pri:5, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:57 IST" name="signinInvalidpasswrd" finished-at="2021-12-02T18:38:58 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinInvalidpasswrd -->
+        <test-method signature="siginInvalidmail()[pri:6, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:58 IST" name="siginInvalidmail" finished-at="2021-12-02T18:38:58 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siginInvalidmail -->
+        <test-method signature="signIn()[pri:7, instance:com.org.ss.virujh.DoctorLoginfntest@50eac852]" started-at="2021-12-02T18:38:58 IST" name="signIn" finished-at="2021-12-02T18:39:01 IST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- com.org.ss.virujh.DoctorLoginfntest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
