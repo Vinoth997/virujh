@@ -59,6 +59,7 @@ public class PatientLoginpagetest extends Browser
 		Thread.sleep(4000);
 		loginpage.profileButton();
 		loginpage.logoutButton();
+		System.out.println("Test Executed");
 	}
 	
 }
