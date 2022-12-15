@@ -1,5 +1,6 @@
 package com.org.ss.virujh;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -53,12 +54,12 @@ public class PatientLoginpagetest extends Browser
 		loginpage.paymentMethod();
 	}
 
-	/*@AfterTest
+	@AfterTest
 	public void PatientLogout() throws InterruptedException{
 		Thread.sleep(4000);
 		loginpage.profileButton();
 		loginpage.logoutButton();
-	}*/
+	}
 	
 }
 
