@@ -57,7 +57,6 @@ public class PatientLoginpagetest extends Browser
 	@AfterTest
 	public void PatientLogout() throws InterruptedException{
 		Thread.sleep(4000);
-		System.out.println("Test Executed");
 		loginpage.profileButton();
 		loginpage.logoutButton();
 		System.out.println("Test Executed");
