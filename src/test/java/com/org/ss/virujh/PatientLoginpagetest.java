@@ -60,6 +60,7 @@ public class PatientLoginpagetest extends Browser
 		System.out.println("Test Executed");
 		loginpage.profileButton();
 		loginpage.logoutButton();
+		System.out.println("Test Executed");
 	}
 	
 }
