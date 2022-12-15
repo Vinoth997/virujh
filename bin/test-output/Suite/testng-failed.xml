@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.org.ss.virujh.DoctorVideoConsultationtest">
+        <methods>
+          <include name="Prescription"/>
+          <include name="Prescription_validation"/>
+          <include name="End_Session"/>
+          <include name="Next_Session"/>
+          <include name="Doctor_SignIn"/>
+          <include name="Doctor_Video_Conslt"/>
+          <include name="Launch_Browser"/>
+        </methods>
+      </class> <!-- com.org.ss.virujh.DoctorVideoConsultationtest -->
+      <class name="com.org.ss.virujh.PatientVideoConsultationtest">
+        <methods>
+          <include name="Patient_SignIn"/>
+          <include name="Patient_Upcoming_appoinments"/>
+          <include name="Prescription_Validation"/>
+          <include name="Launch_Browser"/>
+        </methods>
+      </class> <!-- com.org.ss.virujh.PatientVideoConsultationtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

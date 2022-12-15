@@ -3,6 +3,8 @@ package com.org.ss.virujh;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import src.main.java.com.org.ss.virujh.AppoinmentRecordsinDocacc;
+
 public class AppoinmentRecordsinDocacctest extends Browser{
 	
 AppoinmentRecordsinDocacc ar;
